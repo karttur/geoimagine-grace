@@ -1,9 +1,13 @@
 """
-Karttur GRACE specific processing
+grace
+==========================================
+
+Package belonging to Karttur´s GeoImagine Framework.
 
 Author
-______
-Thomas Gumbricht
+------
+Thomas Gumbricht (thomas.gumbricht@karttur.com)
+
 """
 
 from .version import __version__, VERSION, metadataD

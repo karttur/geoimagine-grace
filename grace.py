@@ -101,7 +101,6 @@ class ProcessGrace:
 
         if self.process.proc.processid.lower() == 'organizegrace':
             self._OrganizeGrace()
-        
         elif self.process.proc.processid.lower() == 'fillgracetimegaps':
             self._FillGraceTimeGaps()
         elif self.process.proc.processid.lower() == 'averagegracesolutions':
